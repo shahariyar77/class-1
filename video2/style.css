@@ -1,0 +1,87 @@
+/*
+Basic Information:
+--------------------
+
+Project Name   	:	NGH school Template
+Author       	: 	NGH school
+Our Site 		: 	https://youthenlight.com
+Description 	: 	This is html5 School template
+Developed By 	: 	Mahbubul Haq
+Phone           :   01515672069
+
+
+-----------------------------------------------------------------------------------*/
+/*================== 1. Start Template Common CSS ===============*/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.zigzag-text-bg-1{
+	background-image: url(img/whatwe1.jpeg);
+    background-size: cover;
+	background-position: center;
+}
+.zigzag-text-bg-2{
+	background-image:url(img/slide-bg-3.jpg);
+    overflow: hidden;
+    background-size: cover;
+	background-position: center;
+}
+.section-padding {
+	background-size: cover;
+	background-position: center;
+}
+.zigzag-text{
+	position: relative;
+	z-index: 2;
+	
+    padding-top: 32px;
+	padding-bottom: 32px;
+}
+.zigzag-text::after{
+	content: "";
+	top: 0;
+	left: -4890%;
+	height: 100%;
+	width: 5000%;
+	background-color: green;
+	position: absolute;
+	z-index: -1;
+	color: wheat;
+	transform: skew(11deg);
+	opacity: 0.5;
+		
+}
+.zigzag-text-2{
+	position: relative;
+	z-index: 2;
+     padding-top: 32px;
+	padding-bottom: 32px;
+	
+}
+.zigzag-text-2::after{
+	content: "";
+	top: 0;
+	right: -4890%;
+	height: 100%;
+	width: 5000%;
+	background-color: green;
+	position: absolute;
+	z-index: -1;
+	color: wheat;
+	transform: skew(11deg);
+	opacity: 0.5;
+		
+}
+
+/*========================   Nav manu ==================*/
+
+
+
+
+
+
+
